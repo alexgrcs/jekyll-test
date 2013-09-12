@@ -1,0 +1,9 @@
+$base-color = black;
+
+body {
+    if $base-color == black {
+        color: white;
+      } @else {
+        color: black; 
+      }
+}
